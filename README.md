@@ -21,3 +21,13 @@ The objective of this project is to develop a robust machine learning model for 
         Creating an API: Develop a Flask API to serve the best model, allowing it to receive email text and return predictions (spam or ham).
         Containerization: Use Docker to containerize the model and the API for easy deployment and scalability.
         Orchestration: Deploy the containerized application using Kubernetes for robust and scalable production deployment.
+        Technologies and Tools
+
+    Programming Languages: Python
+    Libraries:
+        Data Preprocessing: Pandas, Numpy, NLTK, re, string
+        Feature Extraction: Scikit-learn (TfidfVectorizer)
+        Machine Learning Models: Scikit-learn (MultinomialNB, LogisticRegression, SVC, RandomForestClassifier)
+        Data Balancing: imbalanced-learn (SMOTE)
+        Model Evaluation: Scikit-learn (accuracy_score, precision_score, recall_score, f1_score)
+        Hyperparameter Tuning: Scikit-learn (GridSearchCV)
